@@ -1,5 +1,6 @@
-{
+const {MessageEmbed} = require("discord.js");
+module.exports = {
 run: function (message) {
-message.author.send("worked")
+message.author.send(new MessageEmbed(). setDescription ("hii"))
 }
 }
